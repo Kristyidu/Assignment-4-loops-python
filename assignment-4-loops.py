@@ -59,7 +59,7 @@ high_performers_group = {}
 average_performers_group = {}
 low_performers_group = {}
 
-#Using the IF Statement and Conditionals:
+#Using For Loops, the IF Statement and Conditionals:
 for every_student in students:
     student_id = every_student['id']
     student_name = every_student['name']
