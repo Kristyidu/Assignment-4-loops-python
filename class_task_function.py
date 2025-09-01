@@ -10,7 +10,7 @@ print("==============Task 2===================")
 def square_number(n):
     return n * n
 
-print(square_number(5)) 
+print(square_number(9)) 
 print(square_number(7))
 
 print("==============Task 3===================")
@@ -24,7 +24,7 @@ print("==============Task 4===================")
 def area_of_rectangle(length, width):
     return length * width
 
-print(area_of_rectangle(4, 6)) 
+print(area_of_rectangle(3, 5)) 
 
 print("==============Task 5===================")
 def perimeter_of_square(side):
@@ -37,8 +37,8 @@ def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
 print(celsius_to_fahrenheit(0))  
-print(celsius_to_fahrenheit(25))  
-print(celsius_to_fahrenheit(15))
+print(celsius_to_fahrenheit(15))  
+print(celsius_to_fahrenheit(35))
 
 print("==============Task 7==================")
 
@@ -49,8 +49,8 @@ def find_max_number(a, b, c):
         return b
     else:
         return c
-print(find_max_number(10, 25, 15))
-print(find_max_number(9, 7, 5))
+print(find_max_number(10, 125, 15))
+print(find_max_number(9, 17, 5))
 
 print("==============Task 8==================")
 
@@ -72,7 +72,7 @@ def count_vowels(word):
             count += 1
     return count
 print(count_vowels("apple"))  
-print(count_vowels("BANANA")) 
+print(count_vowels("PAWPAW")) 
 
 print("==============Task 10===================")
 def multiply_list(numbers):
@@ -146,8 +146,8 @@ def palindrome_check(word):
     word = word.lower()
     return word == word[::-1]
 
-print(palindrome_check("madam"))
-print(palindrome_check("hello"))
+print(palindrome_check("aunty"))
+print(palindrome_check("world"))
 
 print("===============Task 18================")
 def convert_minutes_to_hours(minutes):
@@ -173,7 +173,7 @@ print("================Task 20 ================")
 def simple_interest(principal, rate, time):
     return (principal * rate * time) / 100
 
-print(simple_interest(1000, 5, 2)) 
+print(simple_interest(2000, 5, 2)) 
 
 print("================Task 21 ================")
 def calculator(a, b, operation):
