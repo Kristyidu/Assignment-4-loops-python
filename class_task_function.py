@@ -3,7 +3,7 @@ def sum_two_numbers(a, b):
     return a + b
 
 print(sum_two_numbers(3, 5))
-print(sum_two_numbers(9,12))
+print(sum_two_numbers(9,2))
 print(sum_two_numbers(6,7))
 
 print("==============Task 2===================")
